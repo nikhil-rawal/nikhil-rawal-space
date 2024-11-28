@@ -42,7 +42,7 @@ function App() {
           My Portfolio
         </h1>
         <p className="text-lg mt-2 text-secondary dark:text-lightText">
-          Welcome to my personal website
+          Welcome to Nikhil's space
         </p>
       </motion.header>
       <motion.main
