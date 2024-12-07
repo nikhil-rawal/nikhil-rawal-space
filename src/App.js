@@ -1,5 +1,15 @@
+import Header from "./pages/Header";
+import Main from "./pages/Main";
+import Footer from "./pages/Footer";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="mx-2 my-4">
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
