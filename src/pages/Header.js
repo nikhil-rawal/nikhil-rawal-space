@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaRegMoon } from "react-icons/fa";
 import { FaRegSun } from "react-icons/fa";
 import logo_dark from "../logos2/logo_dark.svg";
@@ -7,19 +7,13 @@ import logo_light from "../logos2/logo_light.svg";
 const Header = () => {
   const [theme, setTheme] = useState("light");
 
-  console.log(`logo-${theme}`);
+  useEffect(() => {
+    document.body.classList.toggle("dark", theme === "dark");
+    document.body.classList.toggle("light", theme === "light");
+  }, [theme]);
 
   const toggleTheme = () => {
-    // theme === "light" ? setTheme("dark") : setTheme("light");
-    theme === "light"
-      ? document.body.classList.add("dark")
-      : document.body.classList.add("light");
-  };
-
-  const changing = () => {
-    theme === "light"
-      ? document.body.classList.add("dark")
-      : document.body.classList.add("light");
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
   return (
@@ -33,7 +27,6 @@ const Header = () => {
         <button onClick={toggleTheme}>
           {theme === "light" ? <FaRegMoon /> : <FaRegSun />}
         </button>
-        {/* <button onClick={changing}>Check</button> */}
       </div>
     </div>
   );
