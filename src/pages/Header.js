@@ -32,22 +32,22 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="h-6 w-6 mx-4" />
+            <FaLinkedin className="h-6 w-6 sm:mx-4 mx-2" />
           </a>
           <a
             href="https://github.com/nikhil-rawal"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="h-6 w-6 mx-4" />
+            <FaGithub className="h-6 w-6 sm:mx-4 mx-2" />
           </a>
           <a href="/resume.pdf" download="Nikhil_Resume.pdf">
-            <IoDocumentText className="h-6 w-6 mx-4" />
+            <IoDocumentText className="h-6 w-6 sm:mx-4 mx-2" />
           </a>
           <div>
-            <RxDividerVertical className="h-6 w-6 mx-4 text-stone-500 dark:text-stone-300" />
+            <RxDividerVertical className="h-6 w-6 sm:mx-4 mx-2 text-stone-500" />
           </div>
-          <div className="mx-4">
+          <div className="sm:mx-4 mx-2">
             <button onClick={toggleTheme}>
               {theme === "light" ? (
                 <FaRegMoon className="h-6 w-6" />

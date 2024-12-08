@@ -4,7 +4,7 @@ import Footer from "./pages/Footer";
 
 function App() {
   return (
-    <div className="mx-2 my-4 w-full flex flex-col items-center">
+    <div className="mx-2 px-4 my-4 w-full flex flex-col items-center">
       <Header />
       <Main />
       <Footer />
