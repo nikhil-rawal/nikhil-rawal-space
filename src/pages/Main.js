@@ -1,25 +1,21 @@
 import React from "react";
-import SvgIcon from "../newSvg";
+import MainSummary from "../components/MainSummary";
+import MainProjects from "../components/MainProjects";
 
 const Main = () => {
   return (
     <div className="flex flex-col py-4 w-full ">
-      <div className="flex flex-row w-full">
-        <div className="flex flex-row w-9/12">
-          <h1 className="sm:text-5xl text-3xl ">
-            Hello! I'm Nikhil Rawal.
-            <br />A Front End ReactJS developer. <br />I create{" "}
-            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-              amazing
-            </span>{" "}
-            websites using React.
-          </h1>
-        </div>
-        <div className="w-3/12 flex justify-end">
-          <SvgIcon height={100} width={100} />
-        </div>
+      <MainSummary />
+      <div className="text-stone-500 py-4 sm:text-lg ">
+        Toronto, Canada • UTC/GMT -5
       </div>
-      <div className="text-stone-500 py-6">Toronto, Canada • UTC/GMT -5</div>
+      {/* <hr className="py-4 my-4 w-10/12 mx-auto text-stone-500" /> */}
+      <div className="flex flex-col py-2 h-1">
+        <h1 className="sm:text-4xl text-2xl justify-center mx-auto">
+          Nikhil's Projects
+        </h1>
+        <MainProjects />
+      </div>
     </div>
   );
 };
