@@ -50,9 +50,9 @@ const Header = () => {
           <div className="sm:mx-4 mx-2">
             <button onClick={toggleTheme}>
               {theme === "light" ? (
-                <FaRegMoon className="h-6 w-6" />
+                <FaRegMoon className="h-6 w-6 " />
               ) : (
-                <FaRegSun className="h-6 w-6" />
+                <FaRegSun className="h-6 w-6 " />
               )}
             </button>
           </div>
