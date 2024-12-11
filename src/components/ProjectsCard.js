@@ -28,11 +28,28 @@ const ProjectsCard = ({
         India has given to the world many a great cricketer but perhaps none as
         ambitious as Virat Kohli. To meet his ambition, Kohli employed the
         technical assiduousness of Sachin Tendulkar and fitness that was in the
-        league of top athletes in the world, not just cricketers. As a result,
-        Kohli became the most consistent all-format accumulator of his time,
-        making jaw-dropping chases look easy, and finding, in his own words, the
-        safest possible way to score runs. Plenty of them.
+        league of top athletes in the world, not just cricketers.
       </p>
+      <div className="py-2 flex flex-row flex-wrap content-center">
+        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
+          First Tag
+        </p>
+        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
+          Second Tag
+        </p>
+        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
+          Third Tag
+        </p>
+        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
+          Fourth Tag
+        </p>
+        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
+          Fifth Tag
+        </p>
+        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
+          Sixth Tag
+        </p>
+      </div>
     </div>
   );
 };
