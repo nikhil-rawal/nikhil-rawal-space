@@ -6,7 +6,7 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div className="bg-white dark:bg-black w-full h-full text-black dark:text-white">
-    <div className="flex flex-col items-center mx-auto bg-white dark:bg-black sm:w-8/12 w-full h-screen">
+    <div className="flex flex-col items-center mx-auto w-full md:w-10/12 lg:w-8/12 h-screen">
       <App />
     </div>
   </div>

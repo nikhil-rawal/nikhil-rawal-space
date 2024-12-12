@@ -3,9 +3,9 @@ import SvgIcon from "../newSvg";
 
 const MainSummary = () => {
   return (
-    <div className="flex flex-row w-full">
+    <div className="flex flex-row w-full pt-3 mt-3">
       <div className="flex flex-row w-9/12">
-        <h1 className="sm:text-5xl text-3xl ">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl">
           Hello! I'm Nikhil Rawal.
           <br />A Front End ReactJS developer. I create{" "}
           <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
@@ -15,7 +15,7 @@ const MainSummary = () => {
         </h1>
       </div>
       <div className="w-3/12 flex justify-end">
-        <SvgIcon height={100} width={100} />
+        <SvgIcon height={90} width={90} />
       </div>
     </div>
   );

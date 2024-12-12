@@ -21,10 +21,10 @@ const Header = () => {
   };
 
   return (
-    <div className="flex flex-row w-full">
-      <div className="flex flex-row bg-white dark:bg-black w-full border-none rounded-md py-2 px-4 content-center ">
-        <div className="w-9/12">
-          <SvgIcon height={50} width={50} />
+    <div className="flex flex-row w-full saturate-100 backdrop-blur-3xl rounded-2xl bg-blend-color isolate shadow-md bg-white/90 dark:bg-black/10 ">
+      <div className="flex flex-row bg-white dark:bg-black w-full border-none rounded-md py-2 px-4 content-center items-center">
+        <div className="w-9/12 ">
+          <SvgIcon height={55} width={55} />
         </div>
         <div className="flex flex-row w-3/12 justify-end">
           <a
@@ -32,27 +32,27 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="h-6 w-6 sm:mx-4 mx-2" />
+            <FaLinkedin className="h-6 w-6 2xl:w-8 2xl:h-8 md:w-7 md:h-7 lg:h-7 lg:w-7 mx-2 md:mx-3 lg:mx-4 xl:mx-5" />
           </a>
           <a
             href="https://github.com/nikhil-rawal"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="h-6 w-6 sm:mx-4 mx-2" />
+            <FaGithub className="h-6 w-6 2xl:w-8 2xl:h-8 md:w-7 md:h-7 lg:h-7 lg:w-7  mx-2 md:mx-3 lg:mx-4 xl:mx-5" />
           </a>
           <a href="/resume.pdf" download="Nikhil_Resume.pdf">
-            <IoDocumentText className="h-6 w-6 sm:mx-4 mx-2" />
+            <IoDocumentText className="h-6 w-6 2xl:w-8 2xl:h-8 md:w-7 md:h-7 lg:h-7 lg:w-7  mx-2 md:mx-3 lg:mx-4 xl:mx-5" />
           </a>
           <div>
-            <RxDividerVertical className="h-6 w-6 sm:mx-4 mx-2 text-stone-500" />
+            <RxDividerVertical className="h-6 w-6 2xl:w-8 2xl:h-8 md:w-7 md:h-7 lg:h-7 lg:w-7  mx-2 md:mx-3 lg:mx-4 xl:mx-5 text-stone-500" />
           </div>
-          <div className="sm:mx-4 mx-2">
+          <div className=" mx-2 md:mx-3 lg:mx-4 xl:mx-5">
             <button onClick={toggleTheme}>
               {theme === "light" ? (
-                <FaRegMoon className="h-6 w-6 " />
+                <FaRegMoon className="h-6 w-6 2xl:w-8 2xl:h-8 md:w-7 md:h-7 lg:h-7 lg:w-7 " />
               ) : (
-                <FaRegSun className="h-6 w-6 " />
+                <FaRegSun className="h-6 w-6 2xl:w-8 2xl:h-8 md:w-7 md:h-7 lg:h-7 lg:w-7 " />
               )}
             </button>
           </div>
