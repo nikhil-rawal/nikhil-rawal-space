@@ -57,3 +57,28 @@ const ProjectCard = ({ screenshots }) => {
 };
 
 export default ProjectCard;
+
+// {
+//   screenshots?.length > 0
+//     ? screenshots.map((src, index) => (
+//         <SwiperSlide key={index}>
+//           <img
+//             src={src}
+//             alt={`Project Screenshot ${index + 1}`}
+//             className="w-full h-48 object-cover rounded-lg"
+//           />
+//         </SwiperSlide>
+//       ))
+//     : [
+//         "https://via.placeholder.com/300x200?text=Screenshot+1",
+//         "https://via.placeholder.com/300x200?text=Screenshot+2",
+//       ].map((src, index) => (
+//         <SwiperSlide key={index}>
+//           <img
+//             src={src}
+//             alt={`Placeholder Screenshot ${index + 1}`}
+//             className="w-full object-cover rounded-lg"
+//           />
+//         </SwiperSlide>
+//       ));
+// }

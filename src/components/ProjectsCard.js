@@ -19,7 +19,7 @@ const ProjectsCard = ({
       <div className="flex flex-row justify-start items-center gap-2">
         {/* Project Logo */}
         {projectLogo || <LuLightbulb className="h-6 w-6 text-accent" />}
-        <h2 className="text-lg font-semibold text-primary">
+        <h2 className="text-lg font-semibold">
           {/* Project Name */}
           {projectName || "Sample Project"}
         </h2>
@@ -61,19 +61,26 @@ const ProjectsCard = ({
       </div>
 
       {/* Call-to-Action Buttons */}
-      <div className="mt-4 flex justify-between">
-        <button
-          className="px-4 py-2 rounded-md "
-          onClick={() => alert("View Live Project")}
-        >
-          View Live
-        </button>
-        <button
-          className="px-4 py-2 rounded-md"
-          onClick={() => alert("View Code")}
-        >
-          View Code
-        </button>
+      <div className="mt-4 flex flex-row justify-end ">
+        <a href="#" rel="noopener noreferrer">
+          <button
+            className="flex flex-row mx-2"
+            onClick={() => alert("View Project")}
+          >
+            <span className="font-medium mx-1">Live</span>{" "}
+            <LuExternalLink className="h-4 w-4" />
+          </button>
+        </a>
+
+        <a href="#" rel="noopener noreferrer">
+          <button
+            className="flex flex-row mx-2"
+            onClick={() => alert("View Code")}
+          >
+            <span className="font-medium mx-1">Code</span>{" "}
+            <LuExternalLink className="h-4 w-4" />
+          </button>
+        </a>
       </div>
     </div>
   );

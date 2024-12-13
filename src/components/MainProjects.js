@@ -5,7 +5,6 @@ const MainProjects = () => {
   return (
     <div className="flex flex-col py-2 my-2">
       <ProjectsCard />
-      <ProjectsCard />
     </div>
   );
 };
