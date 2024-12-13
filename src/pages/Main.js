@@ -4,7 +4,7 @@ import MainProjects from "../components/MainProjects";
 
 const Main = () => {
   return (
-    <div className="flex flex-col py-4 w-full ">
+    <div className="flex flex-col py-4 pt-20 w-full ">
       <MainSummary />
       <div className="text-stone-500 py-4 sm:text-lg ">
         Toronto, Canada • UTC/GMT -5
