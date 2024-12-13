@@ -9,10 +9,11 @@ const Main = () => {
       <div className="text-stone-500 py-4 sm:text-lg ">
         Toronto, Canada • UTC/GMT -5
       </div>
-      <div className="flex flex-col py-2 h-1 ">
-        <h1 className="sm:text-4xl text-2xl justify-center mx-auto">
-          Nikhil's Projects
+      <div className="flex flex-col py-10 h-1 ">
+        <h1 className="sm:text-4xl text-2xl justify-center mx-auto font-semibold">
+          My Projects
         </h1>
+        <br />
         <MainProjects />
       </div>
     </div>

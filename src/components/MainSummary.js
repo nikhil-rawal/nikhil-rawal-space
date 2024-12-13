@@ -4,7 +4,7 @@ import SvgIcon from "../newSvg";
 const MainSummary = () => {
   return (
     <div className="flex flex-row w-full pt-3 mt-3">
-      <div className="flex flex-row w-9/12">
+      <div className="flex flex-row w-9/12 justify-start">
         <h1 className="text-2xl md:text-3xl lg:text-4xl">
           Hello! I'm Nikhil Rawal.
           <br />A Front End ReactJS developer. I create{" "}

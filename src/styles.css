@@ -1,0 +1,5 @@
+.swiper-button-prev,
+.swiper-button-next {
+  color: inherit !important; /* Ensures the color is inherited from the Tailwind class */
+  text-decoration: none !important; /* Removes underline */
+}

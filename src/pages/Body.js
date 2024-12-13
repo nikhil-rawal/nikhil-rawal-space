@@ -8,6 +8,7 @@ const Body = () => {
       <div className="bg-gradient-to-r from-pink-500 to-violet-500 dark:from-blue-500 dark:to-green-500 h-2 w-9/12 shadow-2xl blur-xl"></div>
       <Header />
       <Main />
+      <Footer />
       <div className="bg-gradient-to-l from-pink-500 to-violet-500 dark:from-blue-500 dark:to-green-500 h-2 w-9/12 shadow-2xl blur-xl"></div>
     </div>
   );
