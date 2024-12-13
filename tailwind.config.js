@@ -1,9 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  darkMode: "selector",
+  darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        background: {
+          DEFAULT: "rgba(255, 255, 255, 0.1)", // Light mode
+          dark: "rgba(0, 0, 0, 0.1)", // Dark mode
+        },
+      },
       animation: {
         slide: "slide 5s linear infinite",
       },

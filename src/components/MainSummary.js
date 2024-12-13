@@ -8,7 +8,7 @@ const MainSummary = () => {
         <h1 className="text-2xl md:text-3xl lg:text-4xl">
           Hello! I'm Nikhil Rawal.
           <br />A Front End ReactJS developer. I create{" "}
-          <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
             amazing
           </span>{" "}
           websites using React.
