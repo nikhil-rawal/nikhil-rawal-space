@@ -1,5 +1,6 @@
 export const myProjects = [
   {
+    uniqueID: "1",
     name: "Project One",
     logo: "https://www.shutterstock.com/shutterstock/photos/2278726727/display_1500/stock-vector-minimalistic-circular-logo-sample-vector-2278726727.jpg",
     images: [
@@ -14,6 +15,7 @@ export const myProjects = [
     codeLink: "#",
   },
   {
+    uniqueID: "2",
     name: "Project Two",
     logo: "https://st2.depositphotos.com/1768926/7866/v/450/depositphotos_78666192-stock-illustration-a-logo-sample-logo-for.jpg",
     images: [
