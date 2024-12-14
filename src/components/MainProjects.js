@@ -1,15 +1,26 @@
 import React from "react";
 import ProjectsCard from "./ProjectsCard";
+import { myProjects } from "../utils/myProjects";
 
 const MainProjects = () => {
   return (
-    <div className="flex flex-col py-2 my-2">
-      <ProjectsCard />
-      <ProjectsCard />
-      <ProjectsCard />
-      <ProjectsCard />
-      <ProjectsCard />
-      <ProjectsCard />
+    <div className="py-2 my-2 w-full flex justify-center">
+      <div className="flex flex-col py-0 my-0 w-full sm:w-9/12">
+        {myProjects?.length > 0 &&
+          myProjects.map((project, index) => (
+            <ProjectsCard
+              key={index}
+              projectName={project.name}
+              projectLogo={project.logo}
+              projectImages={project.images}
+              projectDescription={project.description}
+              projectTags={project.tags}
+              projectLiveLink={project.liveLink}
+              projectCodeLink={project.codeLink}
+              uniqueID={index} // Pass a unique ID
+            />
+          ))}
+      </div>
     </div>
   );
 };

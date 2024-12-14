@@ -1,54 +1,71 @@
 import React from "react";
 import { LuLightbulb } from "react-icons/lu";
 import { LuExternalLink } from "react-icons/lu";
+import ProjectsSwiper from "./ProjectsSwiper";
 
 const ProjectsCard = ({
-  projectIcon,
   projectName,
+  projectLogo,
+  projectImages,
   projectDescription,
   projectTags,
+  projectLiveLink,
+  projectCodeLink,
+  uniqueID,
 }) => {
   return (
-    <div className="flex flex-col border rounded-md border-stone-500 p-12">
-      <div className="flex flex-row justify-between">
-        <div className="flex flex-row">
-          <LuLightbulb className="h-6 w-6" />
-          <h2 className="mx-2">Project's Name</h2>
-        </div>
-        <LuExternalLink className="h-6 w-6" />
+    <div className="flex flex-col rounded-2xl shadow-lg isolate bg-background/20 backdrop-blur-xl p-6 my-4">
+      <div className="flex flex-row justify-start items-center gap-2">
+        {/* Project Logo */}
+        {(projectLogo && (
+          <img
+            src={projectLogo}
+            alt={`${projectName}'s Logo`}
+            className="w-10 h-10"
+          />
+        )) || <LuLightbulb className="h-6 w-6 text-accent" />}
+        <h2 className="text-lg font-semibold">{projectName}</h2>
       </div>
-      <div className="py-2 my-2">
-        <img
-          src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg"
-          alt="sample-photo"
-          className="w-96"
-        />
-      </div>
-      <p>
-        India has given to the world many a great cricketer but perhaps none as
-        ambitious as Virat Kohli. To meet his ambition, Kohli employed the
-        technical assiduousness of Sachin Tendulkar and fitness that was in the
-        league of top athletes in the world, not just cricketers.
+
+      {/* Project Images */}
+      <ProjectsSwiper screenshots={projectImages} uniqueID={uniqueID} />
+
+      {/* Project Description */}
+      <p className="text-sm text-gray-700 dark:text-gray-300">
+        {projectDescription}
       </p>
-      <div className="py-2 flex flex-row flex-wrap content-center">
-        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
-          First Tag
-        </p>
-        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
-          Second Tag
-        </p>
-        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
-          Third Tag
-        </p>
-        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
-          Fourth Tag
-        </p>
-        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
-          Fifth Tag
-        </p>
-        <p className="bg-gray-100 hover:bg-gray-300 dark:bg-neutral-800 dark:hover:bg-neutral-700 mx-2 rounded-lg m-1 p-1">
-          Sixth Tag
-        </p>
+
+      {/* Tags Section */}
+      <div className="mt-4 flex flex-wrap gap-2">
+        {projectTags.length > 0 &&
+          projectTags.map((tag, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 rounded-full text-xs font-medium bg-stone-200 dark:bg-stone-600 cursor-pointer hover:scale-105"
+            >
+              {tag}
+            </span>
+          ))}
+      </div>
+
+      {/* Call-to-Action Buttons */}
+      <div className="mt-4 flex flex-row justify-end ">
+        <div className="p-2 hover:bg-stone-200 dark:hover:bg-stone-500 rounded-lg">
+          <a href={projectLiveLink || "#"} rel="noopener noreferrer">
+            <button className="flex flex-row mx-2">
+              <span className="font-medium mx-1">Live</span>
+              <LuExternalLink className="h-4 w-4" />
+            </button>
+          </a>
+        </div>
+        <div className="p-2 hover:bg-stone-200 dark:hover:bg-stone-500 rounded-lg">
+          <a href={projectCodeLink || "#"} rel="noopener noreferrer">
+            <button className="flex flex-row mx-2">
+              <span className="font-medium mx-1">Code</span>
+              <LuExternalLink className="h-4 w-4" />
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
