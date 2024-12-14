@@ -49,20 +49,23 @@ const ProjectsCard = ({
       </div>
 
       {/* Call-to-Action Buttons */}
-      <div className="mt-4 flex flex-row justify-end">
-        <a href={projectLiveLink || "#"} rel="noopener noreferrer">
-          <button className="flex flex-row mx-2">
-            <span className="font-medium mx-1">Live</span>
-            <LuExternalLink className="h-4 w-4" />
-          </button>
-        </a>
-
-        <a href={projectCodeLink || "#"} rel="noopener noreferrer">
-          <button className="flex flex-row mx-2">
-            <span className="font-medium mx-1">Code</span>
-            <LuExternalLink className="h-4 w-4" />
-          </button>
-        </a>
+      <div className="mt-4 flex flex-row justify-end ">
+        <div className="p-2 hover:bg-stone-200 dark:hover:bg-stone-500 rounded-lg">
+          <a href={projectLiveLink || "#"} rel="noopener noreferrer">
+            <button className="flex flex-row mx-2">
+              <span className="font-medium mx-1">Live</span>
+              <LuExternalLink className="h-4 w-4" />
+            </button>
+          </a>
+        </div>
+        <div className="p-2 hover:bg-stone-200 dark:hover:bg-stone-500 rounded-lg">
+          <a href={projectCodeLink || "#"} rel="noopener noreferrer">
+            <button className="flex flex-row mx-2">
+              <span className="font-medium mx-1">Code</span>
+              <LuExternalLink className="h-4 w-4" />
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
