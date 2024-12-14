@@ -23,7 +23,7 @@ const ProjectsCard = ({
             <img
               src={projectLogo}
               alt={`${projectName}'s Logo`}
-              className="w-10 h-10"
+              className="w-24 "
             />
           ) : (
             <LuLightbulb className="h-6 w-6 text-accent" />
@@ -35,7 +35,7 @@ const ProjectsCard = ({
         <ProjectsSwiper screenshots={projectImages} uniqueID={uniqueID} />
 
         {/* Project Description */}
-        <p className="text-sm mt-4 text-gray-700 dark:text-gray-300">
+        <p className="text-md mt-4 text-gray-700 dark:text-gray-300">
           {projectDescription}
         </p>
 
@@ -44,7 +44,7 @@ const ProjectsCard = ({
           {projectTags?.map((tag, index) => (
             <span
               key={index}
-              className="px-3 py-1 rounded-full text-xs font-medium bg-stone-200 dark:bg-stone-600 cursor-pointer hover:scale-105"
+              className="px-3 py-1 rounded-full text-sm font-medium bg-stone-200 dark:bg-stone-600 cursor-pointer hover:scale-105"
             >
               {tag}
             </span>

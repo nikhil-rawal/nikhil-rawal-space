@@ -13,6 +13,7 @@ const Main = () => {
         <h1 className="sm:text-4xl text-2xl justify-center mx-auto font-semibold">
           My Projects
         </h1>
+        <br />
         <MainProjects />
       </div>
     </div>
