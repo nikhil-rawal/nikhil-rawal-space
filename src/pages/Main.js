@@ -1,6 +1,7 @@
 import React from "react";
 import MainSummary from "../components/MainSummary";
 import MainProjects from "../components/MainProjects";
+import Footer from "./Footer";
 
 const Main = () => {
   return (
@@ -18,6 +19,7 @@ const Main = () => {
         </h1>
         <br />
         <MainProjects />
+        <Footer />
       </div>
     </div>
   );
