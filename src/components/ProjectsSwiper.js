@@ -6,11 +6,11 @@ import "swiper/css/navigation";
 import "../styles.css";
 
 const ProjectsSwiper = ({ screenshots, uniqueID }) => {
-  useEffect(() => {
-    // Log to ensure the buttons exist
-    console.log(document.querySelector(`.swiper-button-prev-${uniqueID}`));
-    console.log(document.querySelector(`.swiper-button-next-${uniqueID}`));
-  }, [uniqueID]);
+  // useEffect(() => {
+  //   // Log to ensure the buttons exist
+  //   console.log(document.querySelector(`.swiper-button-prev-${uniqueID}`));
+  //   console.log(document.querySelector(`.swiper-button-next-${uniqueID}`));
+  // }, [uniqueID]);
 
   return (
     <div className="relative my-4 group">

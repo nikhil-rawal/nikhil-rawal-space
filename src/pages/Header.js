@@ -21,7 +21,7 @@ const Header = () => {
   };
 
   return (
-    <div className="flex flex-row rounded-2xl shadow-sm isolate bg-background/10 saturate-100 backdrop-blur-[10px] transition-shadow fixed z-10 w-full md:w-10/12 lg:w-9/12">
+    <div className="header flex flex-row rounded-2xl shadow-sm isolate bg-background/10 saturate-100 backdrop-blur-[10px] transition-shadow fixed z-10 w-full md:w-10/12 lg:w-9/12">
       <div className="flex flex-row w-full border-none rounded-md py-3 px-4 content-center items-center">
         <div className="w-9/12 justify-start">
           <SvgIcon height={50} width={50} />
