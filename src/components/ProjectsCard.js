@@ -14,7 +14,7 @@ const ProjectsCard = ({
   uniqueID,
 }) => {
   return (
-    <div className="flex flex-col rounded-2xl shadow-lg bg-white dark:bg-neutral-900 p-6 h-full">
+    <div className="flex flex-col rounded-2xl shadow-lg bg-white dark:bg-neutral-900 p-6 py-8 h-full hover:scale-105 transition-all duration-300">
       {/* Wrapper for the content */}
       <div className="flex flex-col flex-grow">
         {/* Header with Project Name and Logo */}
