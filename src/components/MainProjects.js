@@ -5,7 +5,7 @@ import { myProjects } from "../utils/myProjects";
 const MainProjects = () => {
   return (
     <div className="py-2 my-2 w-full flex justify-center">
-      <div className="flex flex-col py-0 my-0 w-full sm:w-9/12">
+      <div className="grid gap-6 w-full  grid-cols-1 sm:grid-cols-1 md:grid-cols-2">
         {myProjects?.length > 0 &&
           myProjects.map((project, index) => (
             <ProjectsCard

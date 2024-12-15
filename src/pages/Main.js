@@ -4,7 +4,10 @@ import MainProjects from "../components/MainProjects";
 
 const Main = () => {
   return (
-    <div className="flex flex-col py-4 pt-20 w-full ">
+    <div
+      className="main flex flex-col py-4 pt-20 w-full "
+      style={{ marginTop: "80px" }}
+    >
       <MainSummary />
       <div className="text-stone-500 py-4 sm:text-lg ">
         Toronto, Canada • UTC/GMT -5
@@ -13,6 +16,7 @@ const Main = () => {
         <h1 className="sm:text-4xl text-2xl justify-center mx-auto font-semibold">
           My Projects
         </h1>
+        <br />
         <MainProjects />
       </div>
     </div>
