@@ -173,7 +173,7 @@ export const myProjects = [
   {
     uniqueID: "8",
     name: "Covid-19 Form",
-    logo: "https://n-youtube.netlify.app/yt_logo_rgb_light.png",
+    logo: "",
     images: [
       "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/covidForm-ss1.webp",
     ],
