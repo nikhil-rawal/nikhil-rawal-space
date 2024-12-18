@@ -170,4 +170,19 @@ export const myProjects = [
     liveLink: "https://vanilla-js-to-do-list.netlify.app",
     codeLink: "https://github.com/nikhil-rawal/VanillaJS-ToDo",
   },
+  {
+    uniqueID: "8",
+    name: "Covid-19 Form",
+    logo: "https://n-youtube.netlify.app/yt_logo_rgb_light.png",
+    images: [
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/covidForm-ss1.webp",
+    ],
+    description:
+      "Covid-19 test booking form is a replica form to book Covid-19 test online.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    liveLink:
+      "https://nikhil-rawal.github.io/Covid-19-Form-GroupProject-WebDev2/",
+    codeLink:
+      "https://github.com/nikhil-rawal/Covid-19-Form-GroupProject-WebDev2",
+  },
 ];
