@@ -1,7 +1,6 @@
 import React from "react";
 import MainSummary from "../components/MainSummary";
 import MainProjects from "../components/MainProjects";
-import Footer from "./Footer";
 
 const Main = () => {
   return (
@@ -19,7 +18,6 @@ const Main = () => {
         </h1>
         <br />
         <MainProjects />
-        {/* <Footer /> */}
         <br />
         <div className="bg-gradient-to-l from-pink-500 to-violet-500 dark:from-blue-500 dark:to-green-500 h-2 w-9/12 blur-2xl"></div>
       </div>
