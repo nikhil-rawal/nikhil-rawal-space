@@ -5,7 +5,7 @@ import { FcDocument } from "react-icons/fc";
 const Footer = () => {
   return (
     <div className="footer flex flex-col items-center mx-auto py-8 footer rounded-2xl shadow-2xl isolate bg-background/10 saturate-100 backdrop-blur-[10px] transition-shadow z-10 w-full md:w-10/12 lg:w-9/12">
-      {/* Contact Section */}
+      {/* Contact Section - Working on new branch*/}
       <h3 className="text-lg font-semibold mb-4">Contact Me</h3>
       <p className="mb-4">
         For suggestions:
