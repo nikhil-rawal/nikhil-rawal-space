@@ -21,8 +21,8 @@ const Footer = () => {
       </p>
       <p className="mb-4">
         <a
-          href="https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/Nikhil+Rawal+Resume.pdf"
-          download="Nikhil_Resume.pdf"
+          href="https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/resume/Nikhil+Rawal+Resume.pdf"
+          download="Nikhil_Rawal_Resume.pdf"
         >
           <FcDocument className="inline h-5 w-5" /> Download My Resume
         </a>
