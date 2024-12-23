@@ -19,9 +19,11 @@ const Main = () => {
         </h1>
         <br />
         <MainProjects />
-        <Footer />
+        <div>
+          <Footer />
+          <div className="bg-gradient-to-l from-pink-500 to-violet-500 dark:from-blue-500 dark:to-green-500 h-2 w-9/12 blur-2xl"></div>
+        </div>
         <br />
-        <div className="bg-gradient-to-l from-pink-500 to-violet-500 dark:from-blue-500 dark:to-green-500 h-2 w-9/12 blur-2xl"></div>
       </div>
     </div>
   );
