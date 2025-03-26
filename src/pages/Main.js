@@ -11,7 +11,7 @@ const Main = () => {
     >
       <MainSummary />
       <div className="text-stone-500 py-4 sm:text-lg ">
-        Toronto, Canada • UTC/GMT -5
+        Toronto, Canada • UTC/GMT -4
       </div>
       <div className="flex flex-col py-10 h-1 ">
         <h1 className="sm:text-4xl text-2xl justify-center mx-auto font-semibold">
