@@ -15,7 +15,7 @@ const Main = () => {
       </div>
       <div className="flex flex-col py-10 h-1 ">
         <h1 className="sm:text-4xl text-2xl justify-center mx-auto font-semibold">
-          My Projects
+          My Work
         </h1>
         <br />
         <MainProjects />

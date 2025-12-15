@@ -1,6 +1,48 @@
 export const myProjects = [
   {
     uniqueID: "1",
+    name: "Condos.ca",
+    logo: "https://hq.property.ca/static/logo/condos-logo.png",
+    images: [
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/condos-ss1.png",
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/condos-ss2.png",
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/condos-ss3.png",
+    ],
+    description:
+      "Condos.ca is the Greater Toronto Area’s leading, data-driven platform focused exclusively on the condominium market. It provides unparalleled transparency by giving users direct access to crucial market intelligence, including historical sold prices, rental data, and detailed price-per-square-foot analysis for specific buildings. Serving over one million registered users, Condos.ca empowers buyers and investors to evaluate vertical communities with confidence using advanced filters and comprehensive building performance reports.",
+    tags: ["ReactJS"],
+    liveLink: "https://condos.ca/",
+  },
+  {
+    uniqueID: "2",
+    name: "Property.ca",
+    logo: "https://hq.property.ca/static/logo/property-logo.png",
+    images: [
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/property-ss2.png",
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/property-ss1.png",
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/property-ss3.png",
+    ],
+    description:
+      "Property.ca is the flagship real estate portal for the Property.ca Inc. Brokerage, offering a complete view of the entire residential market, including freehold houses, townhomes, and condominiums. It brings the company's trademark data transparency—such as public access to sold history and neighborhood trend analysis—to all housing segments. Property.ca is the essential destination for all buyers and sellers, connecting millions of monthly users with a full-service, tech-forward brokerage and its team of dedicated agents.",
+    tags: ["ReactJS"],
+    liveLink: "https://property.ca/",
+  },
+  {
+    uniqueID: "3",
+    name: "mrLoft.ca",
+    logo: "https://hq.property.ca/static/logo/mrloft-logo.png",
+    images: [
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/mrLoft-ss2.png",
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/mrLoft-ss1.png",
+      "https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/px-conversions/mrLoft-ss3.png",
+    ],
+    description:
+      "MrLoft.ca is the highly specialized property portal dedicated to the Toronto loft market, focusing exclusively on unique architectural properties like hard lofts and character conversions. It serves a niche audience by curating highly targeted inventory and providing unique tools that highlight historic details, custom layouts, and neighbourhood-specific data. MrLoft.ca ensures a superior search experience for design-conscious buyers and renters seeking properties beyond the traditional condo or house mold.",
+    tags: ["ReactJS"],
+    liveLink: "https://mrloft.ca/",
+  },
+  {
+    uniqueID: "3",
     name: "N-YouTube",
     logo: "https://n-youtube.netlify.app/yt_logo_rgb_light.png",
     images: [
@@ -34,7 +76,7 @@ export const myProjects = [
     codeLink: "https://github.com/nikhil-rawal/n-youtube",
   },
   {
-    uniqueID: "2",
+    uniqueID: "4",
     name: "The Fork",
     logo: "https://the-fork.netlify.app/theForklogo.1d5b4003.jpg",
     images: [
@@ -69,7 +111,7 @@ export const myProjects = [
     codeLink: "https://github.com/nikhil-rawal/n-react",
   },
   {
-    uniqueID: "3",
+    uniqueID: "5",
     name: "GPT Flix",
     logo: "https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production/consent/87b6a5c0-0104-4e96-a291-092c11350111/01938dc4-59b3-7b21-92dd-d4d4b93ad8a6/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png",
     images: [
@@ -92,7 +134,7 @@ export const myProjects = [
     codeLink: "https://github.com/nikhil-rawal/gpt-flix",
   },
   {
-    uniqueID: "4",
+    uniqueID: "6",
     name: "Incredibles",
     logo: "https://incredibles.netlify.app/assets/svg/incredibles_logo.svg",
     images: [
@@ -117,7 +159,7 @@ export const myProjects = [
     codeLink: "https://github.com/nikhil-rawal/Incredibles-Website",
   },
   {
-    uniqueID: "5",
+    uniqueID: "7",
     name: "Wiindy - The Weather App",
     logo: "",
     images: [
@@ -144,7 +186,7 @@ export const myProjects = [
     codeLink: "https://github.com/nikhil-rawal/Wiindy--The-Weather-App",
   },
   {
-    uniqueID: "6",
+    uniqueID: "8",
     name: "Random Paletter Generator",
     logo: "",
     images: [
@@ -171,7 +213,7 @@ export const myProjects = [
     codeLink: "https://github.com/nikhil-rawal/VanillaJS-ToDo",
   },
   {
-    uniqueID: "8",
+    uniqueID: "9",
     name: "Covid-19 Form",
     logo: "",
     images: [
