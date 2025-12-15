@@ -47,7 +47,7 @@ const Header = () => {
           </div>
           <div className=" hover:bg-stone-300 dark:hover:bg-stone-700 cursor-pointer rounded-xl p-2 mx-0 sm:mx-1 md:mx-2 lg:mx-3 flex justify-center content-center items-center">
             <a
-              href="https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/resume/Nikhil+Rawal+Resume.pdf"
+              href="https://nikhil-portfolio-screenshots.s3.us-east-1.amazonaws.com/resume/NikhilRawalResume.pdf"
               download="Nikhil_Rawal_Resume.pdf"
             >
               <IoDocumentText className="h-5 w-5 2xl:w-8 2xl:h-8 md:w-7 md:h-7 lg:h-7 lg:w-7 " />
